@@ -3,6 +3,7 @@
         "deploy": "deno run --allow-run --allow-read --allow-write --allow-env installer.ts deploy run",
         "setup": "deno run --allow-run --allow-read --allow-write --allow-env installer.ts setup run",
         "deploy:check": "deno run --allow-run --allow-read --allow-write --allow-env installer.ts deploy",
-        "setup:check": "deno run --allow-run --allow-read --allow-write --allow-env installer.ts setup"
+        "setup:check": "deno run --allow-run --allow-read --allow-write --allow-env installer.ts setup",
+        "homebrew": "deno run --allow-run --allow-env homebrew.ts"
     }
 }

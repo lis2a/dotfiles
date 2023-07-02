@@ -35,4 +35,4 @@ const homebrewRunner = defineTask([
     })
 ])
 
-homebrewRunner.run()
+await homebrewRunner.run()
